@@ -1,0 +1,25 @@
+{
+  "name": "chess-stm",
+  "version": "2.0.0",
+  "description": "A Chrome extension that converts your speech into moves on chess.com using Standard Chess Notation",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --mode development --watch"
+  },
+  "keywords": [
+    "chrome-extension",
+    "chess",
+    "speech-recognition",
+    "chess.com"
+  ],
+  "author": "Karanvir Singh",
+  "license": "MIT",
+  "dependencies": {
+    "chess.js": "^1.0.0-beta.8"
+  },
+  "devDependencies": {
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
